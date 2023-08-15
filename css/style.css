@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,105,1) 48%, rgba(0,212,255,1) 100%); linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,121,9,1) 25%, rgba(9,121,116,1) 48%, rgba(79,121,9,1) 70%, rgba(0,212,255,1) 100%);
+    color: #eeeeee;
+    text-align: center;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 10%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2%;
+    background-color: #e6e6e6;
+    color: #272828;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color: #959a9a;
+    color: #e6e6e6;
+  }
+
+/* Адаптив для мобильной версии */
+@media screen and (max-width: 600px) {
+    button {
+        display: block;
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 10px;
+        }
+    button:hover {
+        background-color: #e6e6e6;
+        color: #272828;
+    }
+}
