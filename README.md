@@ -1,1 +1,1 @@
-My first game that is written using JavaScript
+My first game written in JavaScript
